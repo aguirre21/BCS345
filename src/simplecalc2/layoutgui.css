@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color:silver;
+}
+
+.txtfld1{
+    -fx-background-color:whitesmoke;
+}
+
+.clearBtns{
+    -fx-background-color:FF9999;
+}
+
+.arthBtn{
+    -fx-background-color:ffbb99;
+}
+
+.equlBtn{
+    -fx-background-color:lightblue;
+}

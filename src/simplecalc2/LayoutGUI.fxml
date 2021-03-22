@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="300.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="simplecalc2.LayoutGUIController">
+    <stylesheets>
+        <URL value="@layoutgui.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="440.0" prefWidth="300.0">
+         <children>
+            <TextField fx:id="txtBox" styleClass="txtfld1" layoutX="28.0" layoutY="25.0" prefHeight="63.0" prefWidth="235.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Button layoutX="25.0" layoutY="342.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="0" />
+            <Button layoutX="25.0" layoutY="283.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="1" />
+            <Button layoutX="85.0" layoutY="283.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="2" />
+            <Button layoutX="145.0" layoutY="283.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="3" />
+            <Button layoutX="25.0" layoutY="217.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="4" />
+            <Button layoutX="85.0" layoutY="217.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="5" />
+            <Button layoutX="145.0" layoutY="217.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="6" />
+            <Button layoutX="25.0" layoutY="154.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="7" />
+            <Button layoutX="85.0" layoutY="154.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="8" />
+            <Button layoutX="145.0" layoutY="154.0" mnemonicParsing="false" onAction="#addNums" prefHeight="50.0" prefWidth="45.0" text="9" />
+            <Button styleClass="arthBtn" layoutX="216.0" layoutY="154.0" mnemonicParsing="false" onAction="#arthmeticOp" prefHeight="40.0" prefWidth="50.0" text="/" />
+            <Button styleClass="arthBtn" layoutX="216.0" layoutY="200.0" mnemonicParsing="false" onAction="#arthmeticOp" prefHeight="40.0" prefWidth="50.0" text="X" />
+            <Button styleClass="arthBtn" layoutX="216.0" layoutY="293.0" mnemonicParsing="false" onAction="#arthmeticOp" prefHeight="40.0" prefWidth="50.0" text="+" />
+            <Button styleClass="arthBtn" layoutX="216.0" layoutY="247.0" mnemonicParsing="false" onAction="#arthmeticOp" prefHeight="40.0" prefWidth="50.0" text="-" />
+            <Button styleClass="equlBtn" layoutX="85.0" layoutY="342.0" mnemonicParsing="false" onAction="#prcssResults" prefHeight="50.0" prefWidth="180.0" text="=" />
+            <Button styleClass="clearBtns" layoutX="24.0" layoutY="113.0" mnemonicParsing="false" onAction="#clrOp" prefHeight="30.0" prefWidth="75.0" text="CE" />
+            <Button styleClass="clearBtns" layoutX="107.0" layoutY="113.0" mnemonicParsing="false" onAction="#clrOp" prefHeight="30.0" prefWidth="75.0" text="C" />
+            <Button styleClass="clearBtns" layoutX="189.0" layoutY="113.0" mnemonicParsing="false" onAction="#clrOp" prefHeight="30.0" prefWidth="75.0" text="Delete" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
