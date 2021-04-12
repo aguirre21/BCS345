@@ -78,6 +78,7 @@ public class TriangleOnCircle extends Application {
       
     }
    
+   
       
     //initializes lines conneting points
     public void lines(){
@@ -222,6 +223,7 @@ public class TriangleOnCircle extends Application {
         });
         
     }
+    //
     
     
 }
